@@ -225,26 +225,6 @@ This platform simulates enterprise logistics dashboards used in:
 
 ## 🧑‍💻 Author
 
-Your Name  
+Ravikumar
 Data Analytics / Data Engineering Project
 
-## 🏁 Expected Outcome
-
-A fully functional web application capable of:
-
-- Real-time logistics monitoring
-- Operational KPI tracking
-- Cost transparency
-- Performance benchmarking
-- Actionable data-driven decision support
-
-## ⭐ Final Result
-
-This project demonstrates:
-
-- SQL proficiency
-- Backend modular design
-- Data analytics thinking
-- Business intelligence implementation
-- Dashboard development
-- End-to-end system integration
