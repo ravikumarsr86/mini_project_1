@@ -1,5 +1,4 @@
 import pandas as pd
-import sqlite3 
 from sqlalchemy import create_engine
 
 def get_connection():
@@ -7,13 +6,13 @@ def get_connection():
 
 
 # Load data
-cost_df = pd.read_csv("costs.csv")
-courier_staff_df = pd.read_csv("courier_staff.csv")
-routes_df = pd.read_csv("routes.csv")
-shipment_tracking_df = pd.read_csv("shipment_tracking.csv")
-shipments_df = pd.read_json("shipments.json")
-warehouses_df = pd.read_json("warehouses.json")
-print(cost_df.head())
+cost_df = pd.read_csv("./resources/costs.csv")
+courier_staff_df = pd.read_csv("c./resources/courier_staff.csv")
+routes_df = pd.read_csv("./resources/routes.csv")
+shipment_tracking_df = pd.read_csv("./resources/shipment_tracking.csv")
+shipments_df = pd.read_json("./resources/shipments.json")
+warehouses_df = pd.read_json("./resources/warehouses.json")
+
 # Connect to SQLite
 conn = get_connection()
 
