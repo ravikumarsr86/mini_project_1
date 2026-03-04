@@ -226,5 +226,4 @@ This platform simulates enterprise logistics dashboards used in:
 ## 🧑‍💻 Author
 
 Ravikumar
-Data Analytics / Data Engineering Project
 
